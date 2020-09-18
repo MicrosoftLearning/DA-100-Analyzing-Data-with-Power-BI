@@ -120,13 +120,13 @@ In this task, you will create a relationship to the **Targets** table
 
 1. Create a relationship from the **Salesperson (Performance) | EmployeeID** column and the **Targets | EmployeeID** column.
 
-23. In Report view, add the **Targets | Target** field to the table visual.
+2. In Report view, add the **Targets | Target** field to the table visual.
 
 	Widen the table visual to reveal all data. 
 
 	![Picture 5699](Linked_image_Files/PowerBI_Lab05A_image10.png)
 
-24. It’s now possible to visualize sales and targets—but take care, for two reasons. First, there is no filter on a time period, and so targets also including future target values. Second, targets are not additive, and so the total should not be displayed. They can either disabled by using a visual formatting property or removed by using calculation logic. You’ll write a target measure in **Lab 06B** that will return BLANK when more than one salesperson is filtered.
+3. It’s now possible to visualize sales and targets—but take care, for two reasons. First, there is no filter on a time period, and so targets also including future target values. Second, targets are not additive, and so the total should not be displayed. They can either disabled by using a visual formatting property or removed by using calculation logic. You’ll write a target measure in **Lab 06B** that will return BLANK when more than one salesperson is filtered.
 
 # Exercise 2: Enforce row-level security
 
@@ -140,67 +140,67 @@ In this task, you will enforce row-level security to ensure a salesperson can on
 
 	![Picture 5701](Linked_image_Files/PowerBI_Lab05A_image11.png)
 
-26. In the **Fields** pane, select the **Salesperson (Performance)** table.
+2. In the **Fields** pane, select the **Salesperson (Performance)** table.
 
-27. Review the data, noticing that Michael Blythe (EmployeeKey 281) has been assigned your Power BI account (**UPN** column).
+3. Review the data, noticing that Michael Blythe (EmployeeKey 281) has been assigned your Power BI account (**UPN** column).
 
 	*Recall that Michael Blythe is assigned to three sales regions: US Northeast, US Central, and US Southeast*.
 
-28. Switch to Report view.
+4. Switch to Report view.
 
-29. On the **Modeling** ribbon tab, from inside the **Security** group, click **Manage Roles**.
+5. On the **Modeling** ribbon tab, from inside the **Security** group, click **Manage Roles**.
 
 	![Picture 5700](Linked_image_Files/PowerBI_Lab05A_image12.png)
 
-30. In the **Manage Roles** window, click **Create**.
+6. In the **Manage Roles** window, click **Create**.
 
 	![Picture 5702](Linked_image_Files/PowerBI_Lab05A_image13.png)
 
-31. In the box, replace the selected text with the name of the role: **Salespeople**, and then press **Enter**.
+7. In the box, replace the selected text with the name of the role: **Salespeople**, and then press **Enter**.
 
 	![Picture 5703](Linked_image_Files/PowerBI_Lab05A_image14.png)
 
-32. To assign a filter, for the **Salesperson (Performance)** table, click the ellipsis (…) character, and then select **Add Filter | [UPN]**.
+8. To assign a filter, for the **Salesperson (Performance)** table, click the ellipsis (…) character, and then select **Add Filter | [UPN]**.
 
 	![Picture 5704](Linked_image_Files/PowerBI_Lab05A_image15.png)
 
-33. In the **Table Filter DAX Expression** box, modify the expression by replacing **“Value”** with **USERNAME()**.
+9. In the **Table Filter DAX Expression** box, modify the expression by replacing **“Value”** with **USERPRINCIPALNAME()**.
 
 	![Picture 5705](Linked_image_Files/PowerBI_Lab05A_image16.png)
 
 	*USERNAME() is a Data Analysis Expressions (DAX) function that retrieves the authenticated user. This means that the **Salesperson (Performance)** table will filter by the User Principal Name (UPN) of the user querying the model*.
 
-34. Click **Save**.
+10. Click **Save**.
 
 	![Picture 5706](Linked_image_Files/PowerBI_Lab05A_image17.png)
 
-35. To test the security role, on the **Modeling** ribbon tab, from inside the **Security** group, click **View As**.
+11. To test the security role, on the **Modeling** ribbon tab, from inside the **Security** group, click **View As**.
 
 	![Picture 5708](Linked_image_Files/PowerBI_Lab05A_image18.png)
 
-36. In the **View as Roles** window, check the **Other User** item, and then in the corresponding box, enter your account name.
+12. In the **View as Roles** window, check the **Other User** item, and then in the corresponding box, enter your account name.
 
 	*Tip: You can copy it from the **MySettings.txt** file*.
 
-37. Check the **Salespeople** role.
+13. Check the **Salespeople** role.
 
 	![Picture 5709](Linked_image_Files/PowerBI_Lab05A_image19.png)
 
 	*This configuration results in using the **Salespeople** role and impersonating the user with your account name*.
 
-38. Click **OK**.
+14. Click **OK**.
 
 	![Picture 5710](Linked_image_Files/PowerBI_Lab05A_image20.png)
 
-39. Notice the yellow banner above the report page, describing the test security context.
+15. Notice the yellow banner above the report page, describing the test security context.
 
 	![Picture 5711](Linked_image_Files/PowerBI_Lab05A_image21.png)
 
-40. In the table visual, notice that only the salesperson **Michael Blythe** is listed.
+16. In the table visual, notice that only the salesperson **Michael Blythe** is listed.
 
 	![Picture 5713](Linked_image_Files/PowerBI_Lab05A_image22.png)
 
-41. To stop testing, at the right of the yellow banner, click **Stop Viewing**.
+17. To stop testing, at the right of the yellow banner, click **Stop Viewing**.
 
 	![Picture 5712](Linked_image_Files/PowerBI_Lab05A_image23.png)
 
@@ -212,6 +212,6 @@ In this task, you will complete the lab.
 
 1. Save the Power BI Desktop file.
 
-43. Leave Power BI Desktop open.
+2. Leave Power BI Desktop open.
 
 	*In the next lab, you will enhance the data model with calculations using DAX*.
