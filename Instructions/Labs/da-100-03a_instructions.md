@@ -591,7 +591,7 @@ In this task, you will update the **ColorFormats** to disable its load.
 
 116. In the **Query Properties** window, uncheck the **Enable Load To Report** checkbox.  
 	![Picture 323](Linked_image_Files/PowerBI_Lab03A_image70.png)  
-	*Disabling the load means it will not load as a table to the data model. This is done because the query was merged with the Product query, which is enabled to lad to the data model*.
+	*Disabling the load means it will not load as a table to the data model. This is done because the query was merged with the Product query, which is enabled to load to the data model*.
 
 117. Click **OK**.  
 	![Picture 324](Linked_image_Files/PowerBI_Lab03A_image71.png)
