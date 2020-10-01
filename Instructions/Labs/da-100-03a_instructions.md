@@ -240,7 +240,7 @@ In this task, you will configure the **Reseller** query.
 
     * BusinessType
 
-    * RellerName
+    * ResellerName
 
     * DimGeography
 
