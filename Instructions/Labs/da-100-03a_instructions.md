@@ -206,7 +206,7 @@ In this task, you will configure the **Product** query.
 
     ![Picture 5648](Linked_image_Files/PowerBI_Lab03A_image24.png)
 
-41. Notice that the transformation resulted in two columns, and that the **DimProductCategory** column has been removed.
+41. Notice that the transformation resulted in two columns, and that the **DimProductSubcategory** column has been removed.
 
 42. Expand the **DimProductCategory**, and then introduce only the **EnglishProductCategoryName** column.
 
