@@ -166,7 +166,7 @@ In this task, you will configure a data alert.
 
 	![Picture 27](Linked_image_Files/PowerBI_Lab10A_image25.png)
 
-	*In the next exercise, you’ll refresh the dataset. Typically, this should be done by using scheduled refresh, and Power BI could use a gateway to connect to the SQL Server database. However, due to constraints in the classroom setup, there is no gateway. So, you’ll opening Power BI Desktop, perform a manual data refresh, and the upload the file*.
+	*In the next exercise, you’ll refresh the dataset. Typically, this should be done by using scheduled refresh, and Power BI could use a gateway to connect to the SQL Server database. However, due to constraints in the classroom setup, there is no gateway. So, you’ll open Power BI Desktop, perform a manual data refresh, and upload the file*.
 
 # Exercise 2: Refresh the Dataset
 
