@@ -36,7 +36,7 @@ In this task, you will first save the Power BI Desktop file.
 
 	![Picture 13](Linked_image_Files/PowerBI_Lab02A_image1.png)
 
-3. In the **Save As** window, navigate to the **D:\DA100\MySolution** folder.
+3. In the **Save As** window, navigate to the **D:\DA100\Lab02A\MySolution** folder.
 
 4. In the **File Name** box, enter **Sales Analysis**.
 
