@@ -36,7 +36,7 @@ In this task, you will create a live connection to the **Sales Analysis** datase
 
 	![Picture 13](Linked_image_Files/PowerBI_Lab08A_image3.png)
 
-4. In the **Save As** window, navigate to the **D:\DA100\MySolution** folder.
+4. In the **Save As** window, navigate to the **D:\DA100\Lab08a\Solution** folder.
 
 5. In the **File Name** box, enter **Sales Report**.
 
