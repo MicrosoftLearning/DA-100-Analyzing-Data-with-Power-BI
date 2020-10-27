@@ -78,7 +78,7 @@ In this task, you will create the **Salesperson** table (direct relationship to 
 
 10. In the diagram, select the **Salesperson** table.
 
-11. In the **Properties** pane, in the **Description** box, enter: **Salesperson related to s sale**
+11. In the **Properties** pane, in the **Description** box, enter: **Salesperson related to sale**
 
 	*Recall that description appear as tooltips in the **Fields** pane when the user hovers their cursor over a table or field*.
 
@@ -201,7 +201,7 @@ In this task, you will add additional columns to enable filtering and grouping b
 	```
 	MonthKey =
 
-	(YEAR('Date'[Date]) * 100) + MONTH('Date'[Date]) + MONTH ( [Date] ))
+	(YEAR('Date'[Date]) * 100) + MONTH('Date'[Date]))
 	```
 
 	*This formula computes a numeric value for each year/month combination*.
