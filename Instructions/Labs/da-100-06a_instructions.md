@@ -201,7 +201,7 @@ In this task, you will add additional columns to enable filtering and grouping b
 	```
 	MonthKey =
 
-	(YEAR('Date'[Date]) * 100) + MONTH('Date'[Date]) + MONTH ( [Date] ))
+	(YEAR('Date'[Date]) * 100) + MONTH('Date'[Date])
 	```
 
 	*This formula computes a numeric value for each year/month combination*.
