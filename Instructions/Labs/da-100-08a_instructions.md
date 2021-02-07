@@ -171,7 +171,7 @@ In this task, you will design the first report page. When you’ve completed the
 
 	![Picture 27](Linked_image_Files/PowerBI_Lab08A_image25.png)
 
-	*By dragging visuals into a visual, they will be added to default wells. For precision, you can drag fields directly into the wells, as you will do now*.
+	*By dragging fields into a visual, they will be added to default wells. For precision, you can drag fields directly into the wells, as you will do now*.
 
 38. From the **Fields** pane, drag the **Sales | Profit Margin** field into the **Line Values** well.
 
@@ -449,7 +449,7 @@ In this task, you will explore the **Sales Report** in the Power BI service.
 
 	*In focus mode zooms the visual to full page size*.
 
-95. Hover the cursor over different segments of the pie charts to reveal tooltips.
+95. Hover the cursor over different segments of the bar charts to reveal tooltips.
 
 96. To return to the report page, at the top-left, click **Back to Report**.
 
