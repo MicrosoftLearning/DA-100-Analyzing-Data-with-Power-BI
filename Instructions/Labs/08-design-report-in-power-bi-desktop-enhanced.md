@@ -110,7 +110,7 @@ In this task you will setup the environment for the lab by opening the starter r
 
 	![Picture 6](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image8.png)
 
-8. In the **Open** window, navigate to the **D:\DA100\Labs\design-report-in-power-bi-desktop-enhanced\Starter** folder.
+8. In the **Open** window, navigate to the **D:\DA100\Labs\08-design-report-in-power-bi-desktop-enhanced\Starter** folder.
 
 9. Select the **Sales Analysis** file.
 
@@ -204,7 +204,7 @@ In this task you will create a new page and configure it as a drill through page
 
 	![Picture 100](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image22.png)
 
-	*A button is added automatically when a field is added to the drill through well. It allows report users to navigate back to the page from which they drilled through.*
+	*A button is added automatically when a field is added to the drill through area. It allows report users to navigate back to the page from which they drilled through.*
 
 6. Add a **Card** visual to the page, and then resize and position it so it sits to the right of the button and fills the remaining width of the page.
 

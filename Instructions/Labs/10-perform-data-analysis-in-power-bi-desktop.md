@@ -98,7 +98,7 @@ In this task you will setup the environment for the lab by creating a dataset.
 
 	![Picture 11](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image6.png)
 
-4. In the **Open** window, navigate to the **D:\DA100\Labs\create-power-bi-dashboard\Solution** folder.
+4. In the **Open** window, navigate to the **D:\DA100\Labs\10-create-power-bi-dashboard\Solution** folder.
 
 5. Select the **Sales Analysis.pbix** file, and then click **Open**.
 
@@ -168,7 +168,7 @@ In this task you will create a scatter chart that can be animated.
 
 	![Picture 75](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image16.png)
 
-3. Add the following fields to the visual wells:
+3. Add the following fields to the visual areas:
 
 	The labs use a shorthand notation to reference a field. It will look like this: **Reseller** **|** **Business Type**. In this example, **Reseller** is the table name and **Business Type** is the field name.
 
@@ -184,9 +184,9 @@ In this task you will create a scatter chart that can be animated.
 
 	![Picture 39](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image17.png)
 
-	*The chart can be animated when a field is added to the **Play Axis**well.*
+	*The chart can be animated when a field is added to the **Play Axis** area.*
 
-4. In the **Filters** pane, add the **Product | Category** field to the **Filters On This Page** well.
+4. In the **Filters** pane, add the **Product | Category** field to the **Filters On This Page** area.
 
 5. In the filter card, filter by **Bikes**.
 
@@ -231,7 +231,7 @@ In this task you will create a forecast to determine possible future sales reven
   
 ‎ 
 
-3. Add the following fields to the visual wells:
+3. Add the following fields to the visual areas:
 
 	- Axis: **Date | Date**
 
@@ -239,7 +239,7 @@ In this task you will create a forecast to determine possible future sales reven
 
 	![Picture 46](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image23.png)
 
-4. In the **Filters** pane, add the **Date | Year** field to the **Filters On This Page** well.
+4. In the **Filters** pane, add the **Date | Year** field to the **Filters On This Page** area.
 
 5. In the filter card, filter by two years: **FY2019** and **FY2020**.
 
@@ -249,7 +249,7 @@ In this task you will create a forecast to determine possible future sales reven
 
   
 
-6. Add also the **Product | Category** field to the **Filters On This Page** well, and filter by **Bikes**.
+6. Add also the **Product | Category** field to the **Filters On This Page** area, and filter by **Bikes**.
 
 	![Picture 48](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image25.png)
 
@@ -311,7 +311,7 @@ In this task you will create a decomposition tree to explore the relationships b
 
 	![Picture 73](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image32.png)
 
-4. Add the following fields to the visual wells:
+4. Add the following fields to the visual areas:
 
 	- Analyze: **Sales | Profit Margin**
 
@@ -377,7 +377,7 @@ In this task you will use the Key Influencers AI visual to determine what influe
 
 	![Picture 72](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image41.png)
 
-4. Add the following fields to the visual wells:
+4. Add the following fields to the visual areas:
 
 	- Analyze: **Sales | Profit Margin**
 

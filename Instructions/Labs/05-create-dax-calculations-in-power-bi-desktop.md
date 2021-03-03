@@ -68,7 +68,7 @@ In this task you will setup the environment for the lab.
 
 	![Picture 47](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image4.png)
 
-17. In the **Open** window, navigate to the **D:\DA100\Labs\create-dax-calculations-in-power-bi-desktop\Starter** folder.
+17. In the **Open** window, navigate to the **D:\DA100\Labs\05-create-dax-calculations-in-power-bi-desktop\Starter** folder.
 
 18. Select the **Sales Analysis** file.
 
@@ -106,7 +106,7 @@ In this task you will create the **Salesperson** table (direct relationship to *
 
 	![Picture 4](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image10.png)
 
-	*For your convenience, all DAX definitions in this lab can be copied from the **D:\DA100\Labs\create-dax-calculations-in-power-bi-desktop\Assets\Snippets.txt** file.*
+	*For your convenience, all DAX definitions in this lab can be copied from the **D:\DA100\Labs\05-create-dax-calculations-in-power-bi-desktop\Assets\Snippets.txt** file.*
 
 	*A calculated table is created by first entering the table name, followed by the equals symbol (=), followed by a DAX formula that returns a table. Note that the table name cannot already exist in the data model.*
 
@@ -244,11 +244,11 @@ In this task you will add additional columns to enable filtering and grouping by
 
 	![Picture 51](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image23.png)
 
-8. In the **Fields** pane, from inside the **Date** table, drag the **Year** field into the **Rows** well.
+8. In the **Fields** pane, from inside the **Date** table, drag the **Year** field into the **Rows** area.
 
 	![Picture 17](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image24.png)
 
-9. Drag the **Month** field into the **Rows** well, directly beneath the **Year** field.
+9. Drag the **Month** field into the **Rows** area, directly beneath the **Year** field.
 
 	![Picture 18](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image25.png)
 
@@ -366,7 +366,7 @@ In this task you will create simple measures. Simple measures aggregate values i
 
 	*You may recall that in the **Model Data in Power BI Desktop, Part 2** lab, you set the **Unit Price** column to summarize by **Average**. The result you see in the matrix visual is the monthly average unit price (sum of unit price values divided by the count of unit prices).*
 
-2. In the visual fields pane (located beneath the **Visualizations** pane), in the **Values** well, notice that **Unit Price** is listed.
+2. In the visual fields pane (located beneath the **Visualizations** pane), in the **Values** area, notice that **Unit Price** is listed.
 
 	![Picture 28](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image36.png)
 
@@ -396,7 +396,7 @@ In this task you will create simple measures. Simple measures aggregate values i
 
 7. Notice that it produces the same result as the **Unit Price** column (but with different formatting).
 
-8. In the **Values** well, open the context menu for the **Avg Price** field, and notice that it is not possible to change the aggregation technique.
+8. In the **Values** area, open the context menu for the **Avg Price** field, and notice that it is not possible to change the aggregation technique.
 
 	![Picture 32](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image39.png)
 
@@ -440,7 +440,7 @@ In this task you will create simple measures. Simple measures aggregate values i
 
 	![Picture 36](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image41.png)
 
-14. In Report view, in the **Values** well of the matrix visual, for the **Unit Price** field, click **X** to remove it.
+14. In Report view, in the **Values** area of the matrix visual, for the **Unit Price** field, click **X** to remove it.
 
 	![Picture 38](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image42.png)
 
