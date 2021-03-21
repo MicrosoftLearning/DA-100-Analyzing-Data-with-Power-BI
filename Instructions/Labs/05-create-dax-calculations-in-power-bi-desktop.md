@@ -102,7 +102,7 @@ In this task you will create the **Salesperson** table (direct relationship to *
 
 	![Picture 1](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image9.png)
 
-2. In the formula bar (which opens directly beneath the ribbon when creating or editing calculations), type **Salesperson =**, press **Shift+Enter**, type **'Salesperson (Performance)'**, and then press **Enter**.
+2. In the formula bar (which opens directly beneath the ribbon when creating or editing calculations), type **Salesperson (Performance) =**, press **Shift+Enter**, type **'Salesperson'**, and then press **Enter**.
 
 	![Picture 4](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image10.png)
 
