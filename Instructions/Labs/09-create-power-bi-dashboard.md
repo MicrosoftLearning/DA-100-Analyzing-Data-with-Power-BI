@@ -141,6 +141,8 @@ In this task you will setup the environment for the lab by opening the starter r
 
     ![Picture 9](Linked_image_Files/09-create-power-bi-dashboard_image13.png)
 
+17 In the **Confirm Sales as** replace dialogue, click **Yes**.
+
 ### **Task 3: Get started – Publish the report**
 
 In this task you will setup the environment for the lab by creating a dataset.
