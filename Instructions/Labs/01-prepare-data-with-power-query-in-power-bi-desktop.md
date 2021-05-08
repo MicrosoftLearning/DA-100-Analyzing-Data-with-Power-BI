@@ -84,6 +84,8 @@ In this task you will first save the Power BI Desktop file.
 
 	![Picture 18](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image6.png)
 
+1. In the **Confirm Sales as** replace dialogue, click **Yes**.
+
 ### **Task 2: Set Power BI Desktop options**
 
 In this task you will set Power BI Desktop options.
