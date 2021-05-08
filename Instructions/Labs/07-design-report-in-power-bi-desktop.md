@@ -134,6 +134,8 @@ In this task you will setup the environment for the lab by opening the starter r
 
 	![Picture 4](Linked_image_Files/07-design-report-in-power-bi-desktop_image11.png)
 
+17. In the **Confirm Sales as** replace dialogue, click **Yes**.
+
 ### **Task 3: Design page 1**
 
 In this task you will design the first report page. When you’ve completed the design, the page will look like the following:
