@@ -101,6 +101,8 @@ In this task you will setup the environment for the lab.
 
  	![Picture 3](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image8.png)
 
+1. In the **Confirm Sales as** replace dialogue, click **Yes**.
+
 ### **Task 2: Create model relationships**
 
 In this task you will create model relationships.
