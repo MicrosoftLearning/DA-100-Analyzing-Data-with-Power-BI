@@ -141,6 +141,8 @@ In this task you will setup the environment for the lab by opening the starter r
 
 	![Picture 2](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image12.png)
 
+17 In the **Confirm Sales as** replace dialogue, click **Yes**.
+
 ### **Task 3: Sync slicers**
 
 In this task you will sync the **Year** and **Region** slicers.
