@@ -99,6 +99,8 @@ In this task you will setup the environment for the lab.
 
 	![Picture 13](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image8.png)
 
+1. In the **Confirm Sales as** replace dialogue, click **Yes**.
+
 ### **Task 2: Create the Salesperson table**
 
 In this task you will create the **Salesperson** table (direct relationship to **Sales**).
