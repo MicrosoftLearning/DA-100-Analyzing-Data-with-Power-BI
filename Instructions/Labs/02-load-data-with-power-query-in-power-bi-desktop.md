@@ -107,6 +107,8 @@ In this task you will setup the environment for the lab.
 1. To open the **Power Query Editor** window, on the **Home** ribbon tab, from inside the **Queries** group, click the **Transform Data** icon.
 
 	![Picture 20](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image10.png)
+	
+1. In the **Confirm Sales as** replace dialogue, click **Yes**.
 
 ### **Task 2: Configure the Salesperson query**
 
